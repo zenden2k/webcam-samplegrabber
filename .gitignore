@@ -8,6 +8,7 @@
 *.gch
 *.pch
 
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -16,13 +17,15 @@
 # Fortran module files
 *.mod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+Release/
+*.user
+*.pdb
+*.idb
+*.ncb
+*.suo
